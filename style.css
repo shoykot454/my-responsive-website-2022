@@ -4,10 +4,14 @@ body{
     font-family: 'Poppins', sans-serif;
     color: #3A3A3A;
     background: whitesmoke ;
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    
 }
 .influencer-title{
     margin-top: 50px;
-
+margin-left: 20px;
 }
 .influencer-detail{
     margin-top: 80px;
@@ -119,7 +123,8 @@ padding: 20px;
     text-align: center;
     background-color: rgb(13, 13, 56);
     color: white;
-    width: 100%;
+
+    padding:40px 0px; 
 
   
 }
