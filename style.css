@@ -128,8 +128,44 @@ padding: 20px;
 
   
 }
+.gear-title p a{
+    background-color: #E02C6DDE;
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    
+    
+}
+.influencer{
+    display: flex;
+}
+ 
+
+/* media quaries */
+@media only screen and (max-width:688px) {
+    .content{
+        width: 100px;
+    }
+    .container ,.container-tre,.container2{
+        grid-template-columns: repeat(1, 1fr);
+       
+        
+    
+    }
+    .container-tre{
+        margin-top: 100px;
+    }
+    .influencer-detail, .influencer-mini ,.text ,.influencer{
+        flex-direction:column-reverse;
+            
+    }
+    /* .container-tre, .container2, .container-4, .footer-section, .see  */
+.container-4, .footer-section, .see {
+    display: none;
+}
 
 
+  
+   
 
-
-
+   
