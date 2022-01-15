@@ -24,6 +24,7 @@ display: flex;
 h1{
     font-size: 42px;
 }
+
 .container{
     display: flex; 
 }
@@ -91,6 +92,7 @@ cursor: pointer;
 .container-4{
     display: flex;
    
+   
 }
 .influencer-4 img{
     margin-right: 20px;
@@ -145,27 +147,43 @@ padding: 20px;
 @media only screen and (max-width:688px) {
     .content{
         width: 100px;
+
     }
     .container ,.container-tre,.container2{
         grid-template-columns: repeat(1, 1fr);
-       
-        
     
+    }
+    .influencer-4 img{
+        margin-top: -90px;
+
+    }
+    .see a{
+       margin-left: -1px;
     }
     .container-tre{
         margin-top: 100px;
     }
-    .influencer-detail, .influencer-mini ,.text ,.influencer{
+    .container-4{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 0px;
+        margin-top: 0;
+    }
+    .influencer-detail, .influencer-mini ,.text ,.influencer, .container-4, .footer-section, .see{
         flex-direction:column-reverse;
             
     }
     /* .container-tre, .container2, .container-4, .footer-section, .see  */
-.container-4, .footer-section, .see {
-    display: none;
+/* tab media quarie */
+@media only screen and (min-width:688px) and (max-width:992px)  {
+    .content{
+        width: 100%;
+
+    }
+    .container ,.container-tre,.container2{
+        grid-template-columns: repeat(2, 1fr);
+    
+    }
+    
 }
-
-
-  
-   
-
-   
